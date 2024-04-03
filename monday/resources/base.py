@@ -1,4 +1,4 @@
-from monday.graphqlclient.client import GraphQLClient
+from monday.monday.graphqlclient.client import GraphQLClient
 
 _URLS = {
     'prod': 'https://api.monday.com/v2',

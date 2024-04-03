@@ -1,5 +1,5 @@
-from monday.query_joins import create_notification_query
-from monday.resources.base import BaseResource
+from monday.monday.query_joins import create_notification_query
+from monday.monday.resources.base import BaseResource
 
 
 class NotificationResource(BaseResource):

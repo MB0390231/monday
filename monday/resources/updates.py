@@ -1,5 +1,5 @@
-from monday.query_joins import create_update_query, delete_update_query, get_update_query, get_updates_for_item_query
-from monday.resources.base import BaseResource
+from monday.monday.query_joins import create_update_query, delete_update_query, get_update_query, get_updates_for_item_query
+from monday.monday.resources.base import BaseResource
 
 
 class UpdateResource(BaseResource):

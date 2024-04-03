@@ -1,6 +1,6 @@
-from monday.query_joins import get_groups_by_board_query, get_items_by_group_query, create_group_query, \
+from monday.monday.query_joins import get_groups_by_board_query, get_items_by_group_query, create_group_query, \
     duplicate_group_query, archive_group_query, delete_group_query
-from monday.resources.base import BaseResource
+from monday.monday.resources.base import BaseResource
 
 
 class GroupResource(BaseResource):

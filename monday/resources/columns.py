@@ -1,6 +1,6 @@
-from monday.query_joins import update_multiple_column_values_query, create_column
+from monday.monday.query_joins import update_multiple_column_values_query, create_column
 
-from monday.resources.base import BaseResource
+from monday.monday.resources.base import BaseResource
 
 
 class ColumnsResource(BaseResource):

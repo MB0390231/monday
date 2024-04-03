@@ -2,8 +2,8 @@ import json
 from enum import Enum
 from typing import List, Union, Optional, Mapping, Any
 
-from monday.resources.types import BoardKind, BoardState, BoardsOrderBy, DuplicateType, ColumnType
-from monday.utils import monday_json_stringify, gather_params
+from monday.monday.resources.types import BoardKind, BoardState, BoardsOrderBy, DuplicateType, ColumnType
+from monday.monday.utils import monday_json_stringify, gather_params
 
 
 # Eventually I will organize this file better but you know what today is not that day.
